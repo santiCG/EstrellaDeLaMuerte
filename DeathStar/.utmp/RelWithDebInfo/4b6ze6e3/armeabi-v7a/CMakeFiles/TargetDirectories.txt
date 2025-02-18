@@ -1,0 +1,5 @@
+C:/Users/santi/Desktop/Universidad/7mo/VR/ar-vr/AR VR/.utmp/RelWithDebInfo/4b6ze6e3/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/santi/Desktop/Universidad/7mo/VR/ar-vr/AR VR/.utmp/RelWithDebInfo/4b6ze6e3/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/santi/Desktop/Universidad/7mo/VR/ar-vr/AR VR/.utmp/RelWithDebInfo/4b6ze6e3/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+C:/Users/santi/Desktop/Universidad/7mo/VR/ar-vr/AR VR/.utmp/RelWithDebInfo/4b6ze6e3/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/santi/Desktop/Universidad/7mo/VR/ar-vr/AR VR/.utmp/RelWithDebInfo/4b6ze6e3/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
