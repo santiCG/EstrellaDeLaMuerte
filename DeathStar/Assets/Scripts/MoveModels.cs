@@ -10,6 +10,7 @@ public class MoveModels : MonoBehaviour
     [SerializeField] Transform[] stars;
 
     [SerializeField] ActivateTexts actTexts;
+    [SerializeField] ChangeTextPanels changeTexts;
 
     public int index = 1;
 
@@ -23,6 +24,7 @@ public class MoveModels : MonoBehaviour
                 StartCoroutine(MoveStars(stars[2], 4, 5, 0));
 
                 actTexts.ChangeState(1);
+                changeTexts.changeTxtPanels(1);
                 index++;
                 break;
             case 2:
@@ -31,6 +33,7 @@ public class MoveModels : MonoBehaviour
                 StartCoroutine(MoveStars(stars[2], 0, 1, 2));
 
                 actTexts.ChangeState(2);
+                changeTexts.changeTxtPanels(2);
                 index++;
                 break;
             
@@ -40,6 +43,7 @@ public class MoveModels : MonoBehaviour
                 StartCoroutine(MoveStars(stars[2], 2, 3, 4));
 
                 actTexts.ChangeState(0);
+                changeTexts.changeTxtPanels(3);
                 index = 1;
                 break;
         }
