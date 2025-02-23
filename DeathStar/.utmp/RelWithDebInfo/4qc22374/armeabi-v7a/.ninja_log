@@ -1,0 +1,10 @@
+# ninja log v5
+20	1109	7619730988380146	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	46fdab34bb0a2835
+11	1127	7619730988637760	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	c212c5b6b6cfb7c0
+31	1143	7619730988829661	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	30522574ef36a77a
+25	1195	7619730989358992	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	fda94a6bfc0c36df
+37	1212	7619730989543521	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b44105c2dae1bc20
+1	1268	7619730990088940	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	309dc0373156a880
+15	1389	7619730991335962	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	9d54bb29f45e287f
+6	1513	7619730992526375	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f36b3886d40a9b18
+1514	1637	7619730993833453	C:/Users/santi/Desktop/Universidad/7mo/VR/EstrellaDeLaMuerte/DeathStar/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4qc22374/obj/armeabi-v7a/libgame.so	939bbf02a3fbf0b1

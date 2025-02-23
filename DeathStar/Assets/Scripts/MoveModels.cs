@@ -11,6 +11,7 @@ public class MoveModels : MonoBehaviour
 
     [SerializeField] ActivateTexts actTexts;
     [SerializeField] ChangeTextPanels changeTexts;
+    [SerializeField] SoundManager sound;
 
     public int index = 1;
 
@@ -25,6 +26,7 @@ public class MoveModels : MonoBehaviour
 
                 actTexts.ChangeState(1);
                 changeTexts.changeTxtPanels(1);
+                sound.SelectSound(1);
                 index++;
                 break;
             case 2:
@@ -34,6 +36,7 @@ public class MoveModels : MonoBehaviour
 
                 actTexts.ChangeState(2);
                 changeTexts.changeTxtPanels(2);
+                sound.SelectSound(2);
                 index++;
                 break;
             
@@ -44,6 +47,7 @@ public class MoveModels : MonoBehaviour
 
                 actTexts.ChangeState(0);
                 changeTexts.changeTxtPanels(3);
+                sound.SelectSound(3);
                 index = 1;
                 break;
         }
