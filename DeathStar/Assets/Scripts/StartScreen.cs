@@ -8,6 +8,7 @@ public class StartScreen : MonoBehaviour
     [SerializeField] private VideoPlayer videoPlayer; 
     [SerializeField] private CanvasGroup startPanel;
     [SerializeField] private RawImage videoRawImage;
+    [SerializeField] private AudioSource audioSource;
     private bool videoPlayed = false;
 
     void Start()
@@ -29,9 +30,11 @@ public class StartScreen : MonoBehaviour
                 Debug.Log("Touch detected");
                 videoPlayer.Play();
 
-                startPanel.DOFade(0f, 5.5f).OnComplete(() => startPanel.gameObject.SetActive(false));
+                startPanel.DOFade(0f, 10f).OnComplete(() => startPanel.gameObject.SetActive(false));
 
                 videoRawImage.DOFade(1f, 1f);
+
+                audioSource.DOFade(0f, 1f);
             }
         }
     }
