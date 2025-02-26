@@ -18,8 +18,14 @@ public class Explosion : MonoBehaviour
     [Header("Explosion Effects")]
     [SerializeField] private VisualEffect explosionEffect;
 
-    public void Explode(){
+    [Header("Index Info ")]
+    [SerializeField] private MoveModels mm;
+    [SerializeField] AudioSource _audio;
+
+    public void Explode()
+    {
         if (originalStar == null || fracturedStar == null) return;
+        if (mm.index != 2) return;
 
         originalStar.SetActive(false);
         fracturedStar.SetActive(true);
@@ -29,7 +35,7 @@ public class Explosion : MonoBehaviour
             explosionEffect.Play();
         }
 
-        StartCoroutine(DelayedExplosionForce());
+        StartCoroutine(DelayedExplosionForce());   
     }
 
     private IEnumerator DelayedExplosionForce()
@@ -43,9 +49,13 @@ public class Explosion : MonoBehaviour
             {
                 rb.isKinematic = false;
                 rb.AddExplosionForce(Random.Range(minExplosionForce, maxExplosionForce), transform.position, explosionRadius);
+                _audio.Play();
             }
         }
 
         Destroy(fracturedStar, 10f);
+
+        yield return new WaitForSeconds(6);
+        originalStar.SetActive(true);
     }
 }
