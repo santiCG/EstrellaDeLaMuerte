@@ -1,0 +1,2 @@
+C:\Users\santi\Desktop\Universidad\7mo\VR\EstrellaDeLaMuerte\DeathStar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\santi\Desktop\Universidad\7mo\VR\EstrellaDeLaMuerte\DeathStar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
